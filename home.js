@@ -54,7 +54,7 @@ function Main() {
             <hr className="hr2"></hr>
             <ul><li className="mail"><a href="mailto:spywarepersues284@gmail.com">spywarepersues284@gmail.com</a></li></ul>
             <h1 className="name">Hi, My Name Is</h1>
-            <h2 className="heading">SpywarePerseues.</h2>
+            <h2 className="heading">SpywarePerseus.</h2>
             <h2 className="heading2">I build things for the internet.</h2>
             <p className="name-p">I am a developer, writer, hacker and a speaker, I started programming in June 2021 and 2021 is my golden year, cause i found out that in which field i am good at.</p>
             <button className="main--btn"><a href="https://top.gg/bot/907081619637149776" target="_blank">Check Out My Discord Bot!!</a></button>
