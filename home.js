@@ -116,6 +116,15 @@ function Projects() {
         <div>
             <h1 className="projects-header"><span className="plain-green-text">03. </span>Other projects</h1>
             <hr className="hr-5"></hr>
+            <div className="div-plufer">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 154 154" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="plufer-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <h2 className="plufer-header"><a href="https://top.gg/bot/907081619637149776" target="_blank" className="green-text">Plufer - Discord Bot</a></h2>
+                <p className="plufer-p"><span className="green-text">Plufer</span>, A discord moderation bot, Maintained and developed by <span className="green-text">SpywarePerseus#9079</span>, Plufer was born in 2021, as mentioned before my golden year, Firstly it was developed by only using <span className="green-text">AOI.JS</span> But later i added <span className="green-text">Discord.js</span> too into Plufer.</p>
+                <p className="plufer-prop-1"><span className="green-text">AOI.JS</span></p>
+                <p className="plufer-prop-2"><span className="green-text">DISCORD.JS</span></p>
+                <p className="plufer-prop-3"><span className="green-text">GLITCH.COM</span></p>
+                <p className="plufer-prop-4"><span className="green-text">DBH</span></p>
+            </div>
         </div>
     )
 }
