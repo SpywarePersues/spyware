@@ -89,7 +89,7 @@ function About() {
 function Fprojects() {
     return (
         <div>
-            <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Some Things, I have Built</h1>
+            <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Featured Project</h1>
             <hr className="hr-4"></hr>
             <div className="itz">
                 <div className="itz-about-box">
@@ -111,6 +111,15 @@ function Fprojects() {
     )
 }
 
+function Projects() {
+    return (
+        <div>
+            <h1 className="projects-header"><span className="plain-green-text">03. </span>Other projects</h1>
+            <hr className="hr-5"></hr>
+        </div>
+    )
+}
+
 function Pageone() {
     return (
         <div id="home">
@@ -126,6 +135,7 @@ function App() {
             <Pageone />
             <About />
             <Fprojects />
+            <Projects />
         </div>
     )
 }
