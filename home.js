@@ -91,6 +91,22 @@ function Fprojects() {
         <div>
             <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Some Things, I have Built</h1>
             <hr className="hr-4"></hr>
+            <div className="itz">
+                <div className="itz-about-box">
+                    <p></p>
+                </div>
+                <p className="itz-about"><a href="https://itzdevs.vercel.app" target="_blank" className="green-text">Itz_Developers</a> a community with so many competitions coming!! participate to win rewards there are paid competitions as well as free competitions!! <a href="https://discord.gg/AyG5e2SAqH" target="_blank" className="green-text">Register now!!</a></p>
+                <a href="https://itzdevs.vercel.app" target="_blank">
+                    <img src="img/itz.png" className="itz-image"></img>
+                </a>
+                <p className="featured-itz">Featured Project</p>
+                <a href="https://itzdevs.vercel.app" target="_blank" className="itz-header">ITZ_DEVELOPERS</a>
+                <p className="itz-prop1"><span className="green-text">Programming</span></p>
+                <p className="itz-prop2"><span className="green-text">Gaming</span></p>
+                <p className="itz-prop3"><span className="green-text">Competitions</span></p>
+                <p className="itz-prop4"><span className="green-text">Rewards</span></p>
+            </div>
+            
         </div>
     )
 }
