@@ -89,14 +89,8 @@ function About() {
 function Fprojects() {
     return (
         <div>
-            <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Some Things I have Built</h1>
-            <a href="https://top.gg/bot/907081619637149776" target="_blank">
-                <img src="img/plufer.png" className="plufer-img"></img>
-            </a>
+            <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Some Things, I have Built</h1>
             <hr className="hr-4"></hr>
-            <div className="plufer-div">
-                <h3 className="featured-plufer">Featured Project</h3>
-            </div>
         </div>
     )
 }
