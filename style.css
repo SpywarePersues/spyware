@@ -67,6 +67,7 @@ nav {
     box-shadow: 1px 7.98256px 15.4564px rgba(0, 0, 0, 0.1);
     height: 5em;
     top: 0;
+    z-index: 5;
 }
 
 .li-1:hover {
@@ -301,9 +302,9 @@ main .hr2 {
 .hr-4 {
     width: 27em;
     height: 0.2px;
-    margin-top: -2em;
+    margin-top: -2.1em;
     margin-left: 44em;
-    border: #797d8a solid 0.1px;
+    border: #797d8a solid 0.05px;
 }
 
 .about-p {
@@ -397,18 +398,86 @@ main .hr2 {
     margin-left: 9em;
     font-size: 28px;   
 }
-
-.plufer-img {
-    width: 35em;
-    margin-left: 15.5em;
-    margin-top: 2em;
-    border-radius: 7px;
+.itz-image {
+    background-color: #64ffda;
+    opacity: 0.6;
+    width: 31em;
+    transition: all 700ms ease;
+    margin-top: 6.5em;
+    margin-left: 16em;
 }
 
-.plufer-div {
-    background-color: #23324b;
-    border-radius: 7px;
-    width: 40em;
-    margin-top: 5em;
-    position: relative;
+.itz-image:hover {
+    opacity: 1;
+}
+
+.featured-itz {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-left: 70em;
+    margin-top: -18em;
+}
+
+.itz-header {
+    color: #ced2dd;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: color 500ms ease;
+    font-size: 30px;
+    margin-left: 34em;
+    font-weight: 700;
+    margin-top: -0.3em;
+    position: absolute;
+}
+
+.itz-header:hover {
+    color: #64ffda;
+}
+
+.itz-about {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 20px;
+    letter-spacing: 1px;
+    width: 570px;
+    position: absolute;
+    margin-left: 45em;
+    margin-top: 12.7em;
+    z-index: 3;
+}
+
+.itz-about-box {
+    background-color: #2a3952;
+    width: 38em;
+    margin-left: 20em;
+    position: absolute;
+    margin-top: 11.5em;
+    margin-left: 43em;
+    z-index: 2;
+    height: 7em;
+    border-radius: 3px;
+}
+
+.itz-prop1 {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-left: 51.5em;
+    margin-top: 13em;
+}.itz-prop2 {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-left: 60em;
+    margin-top: -2.2em;
+}.itz-prop3 {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-left: 65.5em;
+    margin-top: -2.2em;
+}.itz-prop4 {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-left: 74em;
+    margin-top: -2.2em;
+}
+
+.link-itz {
+    stroke: #a8b2d1;
+    margin-left: 48em;
+    width: 2em;
 }
