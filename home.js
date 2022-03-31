@@ -28,8 +28,8 @@ function Navbar() {
                     <a href="#e">
                         <li className="li-2"><span className="plain-green-text">02.</span> Projects</li>
                     </a>
-                    <a href="#s"> 
-                        <li className="li-3"><span className="plain-green-text">03.</span> Skills</li>
+                    <a href="blogs.html"> 
+                        <li className="li-3"><span className="plain-green-text">03.</span> Blogs</li>
                     </a>
                     <a href="#x"> 
                         <li className="li-4"><span className="plain-green-text">04.</span> Contact</li>
@@ -125,6 +125,17 @@ function Projects() {
                 <p className="plufer-prop-3"><span className="grey-text">GLITCH.COM</span></p>
                 <p className="plufer-prop-4"><span className="grey-text">DBH</span></p>
             </div>
+
+            <div className="div-itz-p">
+                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 154 154" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="itz-p-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <h2 className="itz-p-header"><a href="https://discord.gg/AyG5e2SAqH" target="_blank" className="green-text">ITz_Developers - Team</a></h2>
+                <p className="itz-p-p"><span className="green-text">ITz_Developers</span>, A community with so many competitions coming!! participate to win rewards there are paid competitions as well as free competitions!! We made it so people with good experience with programming can participate in competitions and practice their skills.</p>
+                <p className="itz-p-prop-1"><span className="grey-text">DISCORD</span></p>
+                <p className="itz-p-prop-2"><span className="grey-text">WEB</span></p>
+                <p className="itz-p-prop-3"><span className="grey-text">VERCEL.COM</span></p>
+                <p className="itz-p-prop-4"><span className="grey-text">CODING</span></p>
+            </div>
+            <button className="show--btn"><a href="projects.html" className="green-text">Show More</a></button>
         </div>
     )
 }
