@@ -608,7 +608,7 @@ main .hr2 {
     transition: stroke 500ms ease;
 }
 
-.itz-p:hover {
+.itz-p-folder:hover {
     stroke: #64ffda;
 }
 
