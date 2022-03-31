@@ -1,6 +1,6 @@
 body {
     background-color: #132035;
-    height: 450vh;
+    height: 650vh;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -597,3 +597,100 @@ main .hr2 {
 }
 
 
+
+
+
+.itz-p-folder {
+    stroke: #9ea6be;
+    text-decoration: none;
+    margin-top: 2em;
+    margin-left: 2em;
+    transition: stroke 500ms ease;
+}
+
+.itz-p:hover {
+    stroke: #64ffda;
+}
+
+.div-itz-p {
+    background-color: #142a50;
+    height: 27em;
+    width: 25em;
+    border-radius: 10px;
+    margin-top: -26.5em;
+    margin-left: 50.5em;
+    transition: all 300ms ease;
+}
+
+.div-itz-p:hover {
+    margin-top: -27em;
+}
+
+.itz-p-header {
+    font-family: 'Poppins', sans-serif;
+    color: #64ffda;
+    transition: color 500ms ease;
+    margin-top: -12em;
+    margin-left: 1.6em;
+}
+
+.itz-p-p {
+    color: #989fb4;
+    font-family: 'Poppins', sans-serif;
+    width: 20em;
+    margin-left: 2.5em;
+}
+
+.itz-p-prop-1 {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-top: 2em;
+    margin-left: 2.5em;
+}
+
+
+.itz-p-prop-2 {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-top: -2.1em;
+    margin-left: 7.5em;
+}
+
+
+.itz-p-prop-3 {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-top: -2.2em;
+    margin-left: 10.5em;
+}
+
+
+.itz-p-prop-4 {
+    color: #64ffda !important;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin-top: -2.2em;
+    margin-left: 17.5em;
+}
+
+
+.show--btn {
+    background-color: #132035;
+    border: #64ffda solid 1px;
+    border-radius: 7px;
+    height: 6em;
+    width: 15em;
+    margin-top: 1.6em;
+    margin-left: 47em;
+    cursor: pointer;
+    transition: background-color 500ms ease
+}
+
+.show--btn:hover {
+    background-color: #23324b;
+}
+
+.show--btn a {
+    text-decoration: none;
+    color: #64ffda;
+    font-size: 22px;
+}
