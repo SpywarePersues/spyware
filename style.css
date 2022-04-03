@@ -1,6 +1,13 @@
-body {
+.body1 {
     background-color: #132035;
     height: 550vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.body2 {
+    background-color: #132035;
+    height: 90vh;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -746,4 +753,61 @@ main .hr2 {
     font-family: 'Poppins', sans-serif;
     margin-left: 40em;
     margin-top: 13em;
+}
+
+.error {
+    color: #989fb4;
+    margin-top: 10em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7em;
+    margin-top: 1.7em;
+    margin-left: 5.6em;
+    transition: color 500ms ease;
+}
+
+.error span {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+.error-error {
+    font-size: 2.1em;
+    color: #797d8a;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20.5em;
+    margin-top: -3em;
+}
+
+.error:hover {
+    color: #64ffda;
+}
+
+.error-custom {
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 1.8em;
+    margin-left: 22em;
+    margin-top: 2em;
+}
+
+.back--btn {
+    background-color: #132035;
+    border: #64ffda solid 1px;
+    border-radius: 7px;
+    height: 5em;
+    width: 15em;
+    margin-top: 1em;
+    margin-left: 48em;
+    cursor: pointer;
+    transition: background-color 500ms ease
+}
+
+.back--btn:hover {
+    background-color: #23324b;
+}
+
+.back--btn a {
+    text-decoration: none;
+    color: #64ffda;
+    font-size: 22px;
 }
