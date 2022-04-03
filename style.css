@@ -1,6 +1,6 @@
 body {
     background-color: #132035;
-    height: 650vh;
+    height: 550vh;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -693,4 +693,57 @@ main .hr2 {
     text-decoration: none;
     color: #64ffda;
     font-size: 22px;
+}
+
+.contact-header {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    color: #64ffda;
+    margin-top: 12em;
+    margin-left: 29em;
+    font-size: 22px;   
+}
+
+.get-in-touch-contact {
+    font-family: 'Inter', serif;
+    color: #ced2dd;
+    margin-top: 1em;
+    margin-left: 13.1em;
+    font-size: 45px;   
+}
+.contact-p {
+    color: #989fb4;
+    font-family: 'Inter', serif;
+    width: 35em;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 23.5em;
+}
+
+.contact--btn {
+    background-color: #132035;
+    border: #64ffda solid 1px;
+    border-radius: 7px;
+    height: 5em;
+    width: 13em;
+    margin-top: 1.6em;
+    margin-left: 48.7em;
+    cursor: pointer;
+    transition: background-color 500ms ease
+}
+
+.contact--btn:hover {
+    background-color: #23324b;
+}
+
+.contact--btn a {
+    text-decoration: none;
+    color: #64ffda;
+    font-size: 22px;
+}
+
+.developer {
+    color: #9ea6be;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40em;
+    margin-top: 13em;
 }
