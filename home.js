@@ -28,7 +28,7 @@ function Navbar() {
                     <a href="#projects">
                         <li className="li-2"><span className="plain-green-text">02.</span> Projects</li>
                     </a>
-                    <a href="blogs.html"> 
+                    <a href="404.html"> 
                         <li className="li-3"><span className="plain-green-text">03.</span> Blogs</li>
                     </a>
                     <a href="#contact"> 
@@ -135,7 +135,7 @@ function Projects() {
                 <p className="itz-p-prop-3"><span className="grey-text">VERCEL.COM</span></p>
                 <p className="itz-p-prop-4"><span className="grey-text">CODING</span></p>
             </div>
-            <button className="show--btn"><a href="projects.html" className="green-text">Show More</a></button>
+            <button className="show--btn"><a href="404.html" className="green-text">Show More</a></button>
         </div>
     )
 }
@@ -147,7 +147,7 @@ function Contact(props) {
             <h1 className="get-in-touch-contact">Get In <span className="plain-green-text">Touch</span></h1>
             <p className="contact-p">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
             <button className="contact--btn"><a href="mailto:spywarepersues284@gmail.com" className="green-text">Say Hello</a></button>
-            <p className="developer">Built By <span className="green-text`````````">{props.developer}</span></p>
+            <p className="developer">Built By <span className="green-text">{props.developer}</span></p>
         </div>
     )
 }
