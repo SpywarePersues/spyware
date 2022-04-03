@@ -22,21 +22,21 @@ function Navbar() {
         <div>
             <nav>
                 <ol className="nav--ol">
-                    <a href="#">
+                    <a href="#about">
                         <li className="li-1"><span className="plain-green-text">01.</span> About</li>
                     </a>
-                    <a href="#e">
+                    <a href="#projects">
                         <li className="li-2"><span className="plain-green-text">02.</span> Projects</li>
                     </a>
                     <a href="blogs.html"> 
                         <li className="li-3"><span className="plain-green-text">03.</span> Blogs</li>
                     </a>
-                    <a href="#x"> 
+                    <a href="#contact"> 
                         <li className="li-4"><span className="plain-green-text">04.</span> Contact</li>
                     </a> 
                 </ol>
-                <button className="nav--btn"><a href="#">Log In</a></button>
-                <a href="#">
+                <button className="nav--btn"><a href="mailto:spywarepersues284@gmail.com">Say Hi</a></button>
+                <a href="#home">
                     <img src="img/MasterPiece-modified.png" className="nav--logo"></img>
                 </a>
             </nav>
@@ -88,7 +88,7 @@ function About() {
 
 function Fprojects() {
     return (
-        <div>
+        <div id="projects">
             <h1 className="Fprojects-header"><span className="plain-green-text">02. </span>Featured Project</h1>
             <hr className="hr-4"></hr>
             <div className="itz">
@@ -140,6 +140,18 @@ function Projects() {
     )
 }
 
+function Contact(props) {
+    return (
+        <div id="contact">
+            <h1 className="contact-header"><span className="plain-green-text">04. </span>What's Next?</h1>
+            <h1 className="get-in-touch-contact">Get In <span className="plain-green-text">Touch</span></h1>
+            <p className="contact-p">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+            <button className="contact--btn"><a href="mailto:spywarepersues284@gmail.com" className="green-text">Say Hello</a></button>
+            <p className="developer">Built By <span className="green-text`````````">{props.developer}</span></p>
+        </div>
+    )
+}
+
 function Pageone() {
     return (
         <div id="home">
@@ -156,6 +168,9 @@ function App() {
             <About />
             <Fprojects />
             <Projects />
+            <Contact 
+                developer="SpywarePerseus"
+            />
         </div>
     )
 }
