@@ -811,3 +811,8 @@ main .hr2 {
     color: #64ffda;
     font-size: 22px;
 }
+
+
+div {
+    animation-duration: 3s;
+  }
